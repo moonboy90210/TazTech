@@ -3,16 +3,14 @@
    =================================== */
 
 :root {
-
 	--color-bg: #ffffff;
 	--color-text: #0a0a0a;
 	--color-text-secondary: #666666;
 	--color-text-tertiary: #999999;
-	--color-accent: #7000d8;
-	--color-accent-dark: #5a00b0;
-	--color-accent-light: #8f33ff;
+	--color-accent: #0a0a0a;
 	--color-border: #e0e0e0;
 	--color-surface: #fafafa;
+	;
 
 	/* Typography */
 	--font-main: 'DM Sans', sans-serif;
@@ -257,10 +255,10 @@ button {
 }
 
 .hero-stats {
-    display: flex;
-    gap: var(--spacing-xl);
-    padding-top: var(--spacing-lg);
-    border-top: 1px solid var(--color-border);
+	display: flex;
+	gap: var(--spacing-xl);
+	padding-top: var(--spacing-lg);
+	border-top: 1px solid var(--color-border);
 }
 
 .stat-item {
